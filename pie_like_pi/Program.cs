@@ -7,8 +7,9 @@ namespace pie_like_pi
         static void Main(string[] args)
         {
             Console.Write("number of points: ");
-            double pi = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(new Calc_p().Estimate_pi(pi));
+            double nPoints = Convert.ToDouble(Console.ReadLine());
+            double pi = new Calc_p().Estimate_pi(nPoints);
+            Console.WriteLine(pi);
             Console.ReadKey();
         }
     }
