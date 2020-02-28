@@ -6,7 +6,7 @@ namespace pie_like_pi
 {
     class Calc_p
     {
-        internal int Estimate_pi(double n)
+        internal double Estimate_pi(double n)
         {
             var pointsInCircle = 0;
             var allPoints = 0;
