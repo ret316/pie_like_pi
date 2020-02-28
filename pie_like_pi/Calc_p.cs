@@ -28,7 +28,8 @@ namespace pie_like_pi
                    
 
             }
-            return 4 * pointsInCircle / allPoints;
+
+            return 4 * (double)pointsInCircle / allPoints;
         }
     }
 }
